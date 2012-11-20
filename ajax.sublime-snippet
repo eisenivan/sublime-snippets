@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$.ajax({
+	type: "POST",
+	url: PAGE,
+	data: params,
+}).done(function(msg){
+	//success
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.JavaScript</scope> -->
+</snippet>

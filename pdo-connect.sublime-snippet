@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+try {
+	\$host = "${1:localhost}";
+	\$dbname = "$2";
+	\$user = "$3";
+	\$pass = "$4";
+
+  # MySQL with PDO_MYSQL  
+  \$DBH = new PDO("mysql:host=\$host;dbname=\$dbname", \$user, \$pass);  
+  # SQLite Database  
+  \$DBH = new PDO("sqlite:my/database/path/database.db");  
+}  
+catch(PDOException \$e) {  
+    echo \$e->getMessage();  
+}  
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pdoconnect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

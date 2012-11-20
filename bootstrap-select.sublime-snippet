@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="control-group">
+	<label class="control-label" for="$1">$2</label>
+	<div class="controls">
+		<select id="$1" name="$1">
+			<option value="$3">$3</option>
+			$4
+		</select>
+	</div>
+</div>
+$5
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bootselect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>html</scope> -->
+</snippet>

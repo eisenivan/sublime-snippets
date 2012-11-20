@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="control-group">
+	<label class="control-label" for="$1">$2</label>
+	<div class="controls">
+		<input type="${3:text}" id="$1" name="$1" placeholder="$2">
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bootinput</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>html</scope> -->
+</snippet>
